@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    width: 1200px;
+    height: 75px;
+    line-height: 57px;
+    padding-top: 18px;
+    margin:0 auto;
+    position: relative;
+}
+header .logo{
+    float: left;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    float: left;
+    margin-right: 40px;
+    font-size: 17px;
+    color:#666;
+    font-weight: 700;
+}
+header ul .search{
+    margin-right: 0;
+}
+header ul li a{
+    color: #666;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+header ul .search img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+header .search-part{
+    width: 320px;
+    height: 35px;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 93px;
+    overflow: hidden;
+    padding: 12px 15px;
+    border-radius: 5px;
+    z-index: 999;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+    display: none;
+}
+header .search-part input{
+    width: 278px;
+    height: 35px;
+    line-height: 35px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    float: left;
+    outline:none;
+}
+header .search-part img{
+    width: 22px;
+    float: right;
+    margin: 5px 0 0 0;
+}
+footer{
+    height: 465px;
+    width: 100%;
+    text-align: center;
+    background: #2c2d2c;
+    color: #fff;
+}
+.footer-top{
+    height: 420px;
+    text-align: left;
+}
+.footer-bottom{
+    height: 45px;
+    line-height: 45px;
+    background: #262626;
+}
+.footer-top-inner{
+    width: 1200px;
+    height: 260px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.footer-left{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+.footer-fx{
+    padding: 80px 0 25px;
+}
+.footer-fx img{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+.footer-beian span{
+    display: block;
+    line-height: 25px;
+    font-size: 14px;
+}
+.footer-middle{
+    width: 42%;
+    float: left;
+}
+.footer-middle-title{
+    font-size: 20px;
+    padding: 0 0 25px 10%;
+    height: 36px;
+    line-height: 36px;
+}
+.footer-middle-content{
+    height: 190px;
+    border-left: solid 1px #565756;
+    border-right: solid 1px #565756;
+    line-height: 3;
+    padding: 2% 10% 0 10%;
+}
+.footer-middle-content span{
+    display: block;
+}
+.footer-right{
+    float: right;
+    width: 20%;
+}
+.footer-right-title{
+    font-size: 20px;
+    padding: 0 0 25px 22%;
+    height: 36px;
+    line-height: 36px;
+}
+.footer-right a{
+    color: #fff;
+}
+.footer-right-content a{
+    width: 28%;
+    float: left;
+    margin: 0 0 0 22%;
+    height: 48px;
+    line-height: 48px;
+}
