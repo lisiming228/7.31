@@ -56,8 +56,8 @@ header .search-part{
     border-radius: 5px;
     z-index: 999;
     box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
-    transition: all 1s ease;
-    opacity: 0;
+    /* transition: all 1s ease; */
+    display: none;
 }
 header .search-part input{
     width: 278px;

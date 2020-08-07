@@ -149,23 +149,11 @@
         </div>
         <div class="footer-bottom">Copyright &copy; 2020 哈尔滨铭辉安防设备有限公司 All rights reserved</div>
     </footer>
+    <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
     <script>
-        var searchPart=document.querySelector(".search-part");
-        var search=document.querySelector(".search");
-        var flag=0;
-        var flag=0;
-       search.onclick=function(){
-           if(flag==0){
-               searchPart.style.opacity=1;
-            //    searchPart.style.transform="scale(1,1)";
-               flag=1;
-           }
-           else{
-                searchPart.style.opacity=0;
-                // searchPart.style.transform="scale(0,0)";
-               flag=0;
-           }
-       }
+         $(".search").click(function(){
+				$(".search-part").slideToggle()
+			})
     </script>
 </body>
 </html>
